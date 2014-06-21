@@ -1,0 +1,16 @@
+bin
+out
+target
+
+*.iml
+*.class
+
+.idea
+# .classpath
+# .project
+
+# Vim Backup/Swap Files
+*~
+.swp
+.*.swp
+
