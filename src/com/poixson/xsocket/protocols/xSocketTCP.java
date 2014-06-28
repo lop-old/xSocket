@@ -282,7 +282,7 @@ public class xSocketTCP extends xSocket {
 
 
 	@Override
-	public boolean send(final String remoteHost, final int remotePort, final String data) {
+	public boolean send(String data) {
 		throw new IllegalAccessError();
 	}
 

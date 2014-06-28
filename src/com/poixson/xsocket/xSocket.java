@@ -144,7 +144,7 @@ public abstract class xSocket implements Runnable, xCloseable {
 	public abstract boolean isClosed();
 
 
-	public abstract boolean send(final String remoteHost, final int remotePort, final String data);
+	public abstract boolean send(final String data);
 
 
 	protected void setState(final SocketState state) {
