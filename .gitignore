@@ -1,16 +1,23 @@
-bin
-out
-target
+resources/
+bin/
+target/
+out/
+build/
 
-*.iml
+.git/
+.settings/
+
 *.class
-
-.idea
-# .classpath
-# .project
-
-# Vim Backup/Swap Files
-*~
-.swp
+*.iml
+*.idea
+*.jar
+*.war
+*.ear
+*.zip
+*.exe
+*.lock
+*.out
+*.swp
 .*.swp
+*~
 

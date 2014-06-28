@@ -3,8 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
                              http://maven.apache.org/maven-v4_0_0.xsd">
 <!-- http://maven-repository.com/ -->
-    <modelVersion>1.0.0</modelVersion>
-    <groupId>com.poixson.xsocket.samples</groupId>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.poixson.xsocketsamples</groupId>
     <artifactId>xSocket-Samples</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0-SNAPSHOT</version>
@@ -43,7 +43,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.poixson.xsocket.samples.demoapp</mainClass>
+                            <mainClass>com.poixson.xsocketsamples.demoapp</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
